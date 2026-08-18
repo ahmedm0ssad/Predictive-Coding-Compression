@@ -1,5 +1,7 @@
 # 2-D Feed Backward Predictive Coding
 
+[![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)](https://www.java.com/)
+
 ## DSAI 325 – Introduction to Information Theory
 Assignment 5: Java Implementation of 2-D Feed Backward Predictive Coding
 
@@ -16,11 +18,15 @@ This project implements a 2-D Feed Backward Predictive Coder in Java. The implem
 - Comprehensive analysis tools for evaluating compression performance
 
 ## Project Structure
-- `PredictiveCoder.java`: Core implementation of the predictive coding algorithm
-- `PredictiveCoderApp.java`: Application to run experiments and generate reports
-- `README.md`: This file with instructions
-- `input/`: Directory for input images
-- `output/`: Directory for output results and reports (generated at runtime; not committed)
+```
+Predictive-Coding-Compression/
+├── src/
+│   ├── PredictiveCoder.java      # Core implementation of the predictive coding algorithm
+│   └── PredictiveCoderApp.java   # Application to run experiments and generate reports
+├── input/                        # Directory for input images
+├── output/                       # Directory for output results and reports (generated at runtime)
+└── README.md
+```
 
 ## Setup Instructions
 
@@ -37,12 +43,12 @@ This project implements a 2-D Feed Backward Predictive Coder in Java. The implem
 
 ### Compile the Java Files
 ```bash
-javac PredictiveCoder.java PredictiveCoderApp.java
+javac src/PredictiveCoder.java src/PredictiveCoderApp.java
 ```
 
 ### Run the Application
 ```bash
-java PredictiveCoderApp
+java -cp src PredictiveCoderApp
 ```
 
 The application will:
@@ -102,3 +108,12 @@ Predictive coding works by:
 
 ### Quantization
 Quantization reduces the number of bits needed to represent residuals by mapping a range of values to a single representative value. More quantization levels result in better quality but lower compression.
+
+---
+
+## Author
+
+**Ahmed Mossad** — Data Science & AI, Zewail City
+
+- GitHub: [@ahmedm0ssad](https://github.com/ahmedm0ssad)
+- LinkedIn: [Ahmed Mossad](https://linkedin.com/in/ahmed-mossad-4528202b2)
