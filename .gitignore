@@ -1,0 +1,10 @@
+*.class
+build/
+out/
+target/
+.idea/
+*.iml
+.vscode/
+.vscode/settings.json
+.vscode/launch.json
+output/
